@@ -1,0 +1,74 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "91d20a4e-6d71-4242-9db4-bed203641c4c",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "730265c6-a719-4046-b13e-424be54edd94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "3624359f-31b9-48d4-bd78-28cfb885aa12",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UnDash",
+                    "type": "Button",
+                    "id": "1db9eda1-7d74-4beb-8b81-8cb1e032c2da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5ce25353-9fad-482a-8611-b7943aaff51f",
+                    "path": "<Touchscreen>/touch0/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55fb856f-bfd0-4243-b270-008fb7892d47",
+                    "path": "<Touchscreen>/touch1/tap",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ddfe462-6337-4412-9aa9-fae18caef3f1",
+                    "path": "<Touchscreen>/touch1/tap",
+                    "interactions": "SlowTap(duration=1.401298E-45)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UnDash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
