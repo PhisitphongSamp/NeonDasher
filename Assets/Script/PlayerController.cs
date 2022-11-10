@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-
     public float moveSpeed;
     public float speedMultiplier;
 
@@ -15,10 +14,8 @@ public class PlayerController : MonoBehaviour
     
     public float jumpForce,dashForce;
 
-
     private Rigidbody2D myRigibody;
     public BoxCollider2D playerCollider;
-
 
     public bool grounded = false;
     public bool doubleJumpAllowed = false;
@@ -138,7 +135,25 @@ public class PlayerController : MonoBehaviour
         {
             if (collision.gameObject.tag == "Enemy")
             {
-                TakeDamage(20);
+
+				switch (collision.GetComponent<Enemies>().enemyType)
+				{
+                    case Enemies.EnemyType.UNBREAK:
+                        TakeDamage(20);
+                        break;
+                    case Enemies.EnemyType.BREAKABLE:
+						if (isDashing)
+						{
+                            Destroy(collision.gameObject);
+                        }
+						else
+						{
+                            TakeDamage(20);
+                        }
+                        break;
+				}
+                
+                
                 if (currentHealth <= 0)
                 {
                     theDeathScreen.gameObject.SetActive(true);
