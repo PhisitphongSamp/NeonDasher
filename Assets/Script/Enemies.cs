@@ -7,7 +7,8 @@ public class Enemies : MonoBehaviour
     public enum EnemyType
 	{
 		UNBREAK,
-		BREAKABLE
+		BREAKABLE,
+		SPIKE
 	}
 	public EnemyType enemyType;
 

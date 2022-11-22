@@ -47,9 +47,31 @@
                 },
                 {
                     "name": "",
+                    "id": "39e34678-dc27-4fa3-93ea-b2dcb76d9b93",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "55fb856f-bfd0-4243-b270-008fb7892d47",
                     "path": "<Touchscreen>/touch1/tap",
                     "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c48fdb3-98de-4449-a4f8-1120e8da4a48",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Dash",

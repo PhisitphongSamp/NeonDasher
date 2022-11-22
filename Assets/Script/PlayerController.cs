@@ -151,6 +151,9 @@ public class PlayerController : MonoBehaviour
                             TakeDamage(20);
                         }
                         break;
+                    case Enemies.EnemyType.SPIKE:
+                        TakeDamage(30);
+                        break;
 				}
                 
                 
