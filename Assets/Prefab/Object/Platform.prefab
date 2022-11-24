@@ -75,8 +75,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:Assets/Prefab/Object/Platform.prefab
   m_Sprite: {fileID: 21300000, guid: 8f291d4c2141f2543a136eeb7efaa68a, type: 3}
   m_Color: {r: 0.26561943, g: 0.31052366, b: 0.4433962, a: 1}
+=======
+  m_Sprite: {fileID: 21300000, guid: 113a031c87228884784f87a5574ab830, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> 3236f04c17d69bc6168d2601d7398522c4dd88bc:Assets/Prefab/Platform.prefab
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
