@@ -1717,9 +1717,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6113497352618458527, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6113497352842268985, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
       propertyPath: m_Name
       value: Parallax_BG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268990, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: scrollSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
       propertyPath: m_RootOrder
@@ -4786,11 +4794,11 @@ MonoBehaviour:
   slider: {fileID: 1848150210}
   gradient:
     serializedVersion: 2
-    key0: {r: 0.5797239, g: 0.05098038, b: 0.85490197, a: 1}
-    key1: {r: 0.7052461, g: 0.13679248, b: 1, a: 1}
-    key2: {r: 0.15686274, g: 0.43617865, b: 1, a: 0}
-    key3: {r: 0.1372549, g: 0.63721544, b: 1, a: 0}
-    key4: {r: 0, g: 0.84142995, b: 1, a: 0}
+    key0: {r: 0.7921569, g: 0.038366266, b: 0, a: 1}
+    key1: {r: 0.7921569, g: 0.39618614, b: 0, a: 1}
+    key2: {r: 0.58315474, g: 0.7921569, b: 0, a: 0}
+    key3: {r: 0.009433926, g: 0.7924528, b: 0, a: 0}
+    key4: {r: 0.006103718, g: 0.6603774, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
