@@ -124,7 +124,8 @@ MonoBehaviour:
   moveSpeed: 5
   speedMultiplier: 1.1
   speedIncreaseMilestone: 250
-  jumpFroce: 14
+  jumpForce: 0
+  dashForce: 0
   playerCollider: {fileID: 0}
   grounded: 0
   doubleJumpAllowed: 0
@@ -136,6 +137,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   theDeathScreen: {fileID: 0}
   pauseButton: {fileID: 0}
+  tr: {fileID: 0}
   cooldownTime: 2
 --- !u!95 &1681721523
 Animator:
@@ -170,11 +172,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0048299134, y: -0.5390614}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.74853516, y: 1.825}
+    oldSize: {x: 0.746875, y: 0.746875}
     newSize: {x: 3.16875, y: 2.1166258}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

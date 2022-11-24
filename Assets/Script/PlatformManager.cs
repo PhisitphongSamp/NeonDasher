@@ -33,7 +33,7 @@ public class PlatformManager : MonoBehaviour
     void spawnPlatform(int prefabIndex= -1)
     {
         GameObject go;
-        int randomPlatform = Random.Range(0, 10); 
+        int randomPlatform = Random.Range(0, 4); 
         go = Instantiate(platformPrefab[randomPlatform]) as GameObject;
         go.transform.SetParent(transform);
         go.transform.position = Vector2.right * spawnx;

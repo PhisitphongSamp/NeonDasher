@@ -18,7 +18,7 @@ public class ParallaxController : MonoBehaviour
     void Update()
     {
         //find the lowest y value in world space
-        float minX = mainCamera.ViewportToWorldPoint(new Vector2(0, 0)).x;
+        float minX = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 19)).x;
 
         foreach (SpriteRenderer sr in sprites)
         {
@@ -26,9 +26,9 @@ public class ParallaxController : MonoBehaviour
 
             if (sr.bounds.max.x < minX)
             {
-                Vector2 position = sr.transform.position;
+                Vector3 position = sr.transform.position;
 
-                position.x = position.x + (sprites.Length * sr.bounds.size.x);
+                position.x = position.x + (sprites.Length * sr.bounds.size.x) - 0.1f;
                 sr.transform.position = position;
 
             }

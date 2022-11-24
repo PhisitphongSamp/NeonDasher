@@ -317,17 +317,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 432073493851636383, guid: 0eaf33e19d8b31643915de566a140176, type: 3}
   m_PrefabInstance: {fileID: 12516423}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &16981432 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4272507179522328809, guid: b270f8e6ce2c3a4498b3504b1c28cf71, type: 3}
-  m_PrefabInstance: {fileID: 1837839178}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269859791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67d00972008f2434bbc2d8f1a88bb490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &27966958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,7 +1476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd62ee067babec74da9e874f58dc2fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thePlayer: {fileID: 16981432}
+  thePlayer: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1721,6 +1710,63 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &667514944
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6113497352842268985, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_Name
+      value: Parallax_BG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113497352842268991, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8a036dc136d601440af1d3f1e743d7c9, type: 3}
 --- !u!1 &751507757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,7 +2982,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 16981432}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
           m_MethodName: Slide
           m_Mode: 1
@@ -2952,7 +2998,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 16981432}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
           m_MethodName: StopSlide
           m_Mode: 1
@@ -4540,11 +4586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 235089740970283618, guid: b270f8e6ce2c3a4498b3504b1c28cf71, type: 3}
       propertyPath: m_Offset.x
-      value: -0.0021377206
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 235089740970283618, guid: b270f8e6ce2c3a4498b3504b1c28cf71, type: 3}
       propertyPath: m_Offset.y
-      value: -0.5305338
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4272507179522328809, guid: b270f8e6ce2c3a4498b3504b1c28cf71, type: 3}
       propertyPath: tr
